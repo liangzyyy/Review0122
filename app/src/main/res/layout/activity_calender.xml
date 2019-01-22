@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".CalenderActivity">
+
+    <LinearLayout
+        android:layout_width="800dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/curTime_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="currentTime"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <com.github.airsaid.calendarview.widget.WeekView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            app:wv_textColor="#333333"
+            app:wv_textSize="25sp" />
+
+        <com.github.airsaid.calendarview.widget.CalendarView
+            android:id="@+id/mCalenderView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            app:cv_textSize="18sp"
+            app:cv_selectTextSize="18sp"
+            app:cv_selectDayBackground="@drawable/bg_day_select"
+            app:cv_dayBackground="@drawable/bg_day_un_select"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/disSelect_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"/>
+</LinearLayout>
