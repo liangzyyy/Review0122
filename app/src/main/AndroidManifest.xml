@@ -33,7 +33,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".TestActivity" />
         <activity android:name=".Test2Activity" />
-        <activity android:name=".Test3Activity3"></activity>
+        <activity android:name=".Test3Activity3" />
+        <activity android:name=".Test5Activity"></activity>
     </application>
 
 </manifest>
