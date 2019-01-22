@@ -30,7 +30,8 @@
         <activity
             android:name=".EvnActivity"
             android:label="@string/title_activity_evn"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TestActivity"></activity>
     </application>
 
 </manifest>
